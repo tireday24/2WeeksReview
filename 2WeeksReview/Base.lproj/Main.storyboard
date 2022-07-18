@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_WeeksReview" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="D7c-yb-Tvv">
+                                <rect key="frame" x="25.5" y="210.5" width="363.5" height="475"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="3wE-ab-dvG">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="475"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wts-ge-7ew">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="EO5-xG-gJU"/>
+                                                    <constraint firstAttribute="height" constant="100" id="hy0-WV-vcW"/>
+                                                    <constraint firstAttribute="width" secondItem="wts-ge-7ew" secondAttribute="height" id="rUo-Id-4Iv"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="라이츄"/>
+                                                <connections>
+                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="swc-ar-3zh"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="라이츄" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgF-nE-9VX">
+                                                <rect key="frame" x="0.0" y="115" width="100" height="33.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="rgF-nE-9VX" secondAttribute="height" multiplier="3:1" id="FtB-9e-CIJ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TgT-fP-taj">
+                                                <rect key="frame" x="0.0" y="163.5" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="TgT-fP-taj" secondAttribute="height" id="W4p-5K-1zw"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="번데기"/>
+                                                <connections>
+                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vHD-3s-mJY"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="번대기" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0AG-yR-xVr">
+                                                <rect key="frame" x="0.0" y="278.5" width="100" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="0AG-yR-xVr" secondAttribute="height" multiplier="3:1" id="XzD-0N-o9d"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJN-OE-Fqz">
+                                                <rect key="frame" x="0.0" y="326.5" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="VJN-OE-Fqz" secondAttribute="height" id="1TY-oj-NMs"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="팬텀"/>
+                                                <connections>
+                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZG-aI-OC0"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="펜텀" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1d7-Jb-vac">
+                                                <rect key="frame" x="0.0" y="441.5" width="100" height="33.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="1d7-Jb-vac" secondAttribute="height" multiplier="3:1" id="5aa-A3-GHO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="fAD-8G-ZEF">
+                                        <rect key="frame" x="133" y="0.0" width="98.5" height="475"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYc-RT-heZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="98.5" height="99"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="FYc-RT-heZ" secondAttribute="height" id="drk-aP-1LA"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="리자몽"/>
+                                                <connections>
+                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4aV-3V-zW2"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="리자몽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paL-FJ-uhW">
+                                                <rect key="frame" x="0.0" y="115" width="98.5" height="32.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="paL-FJ-uhW" secondAttribute="height" multiplier="3:1" id="Lvo-Xu-Kph"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jzq-v7-a0K">
+                                                <rect key="frame" x="0.0" y="163.5" width="98.5" height="99"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Jzq-v7-a0K" secondAttribute="height" id="OGl-V9-Rw5"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="이브이"/>
+                                                <connections>
+                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mq1-3H-P4c"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이브이" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gU-uG-T74">
+                                                <rect key="frame" x="0.0" y="278.5" width="98.5" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="3gU-uG-T74" secondAttribute="height" multiplier="3:1" id="VXb-ke-BjP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbu-wY-oKM">
+                                                <rect key="frame" x="0.0" y="327.5" width="98.5" height="98.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="vbu-wY-oKM" secondAttribute="height" id="nnd-Zo-Qg4"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="푸린"/>
+                                                <connections>
+                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8L9-e5-uko"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="푸린" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymB-aq-gbe">
+                                                <rect key="frame" x="0.0" y="442" width="98.5" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="ymB-aq-gbe" secondAttribute="height" multiplier="3:1" id="uoK-NC-Luv"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="h0p-Nd-BQf">
+                                        <rect key="frame" x="264.5" y="0.0" width="99" height="475"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZ4-TM-hk0">
+                                                <rect key="frame" x="0.0" y="0.0" width="99" height="99"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="gZ4-TM-hk0" secondAttribute="height" id="oon-4r-OvW"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="뮤츠"/>
+                                                <connections>
+                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6YW-8h-gDC"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="뮤츠" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vg4-HV-PfV">
+                                                <rect key="frame" x="0.0" y="115" width="99" height="32.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="vg4-HV-PfV" secondAttribute="height" multiplier="3:1" id="SUg-HU-aZb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydV-0W-2Eq">
+                                                <rect key="frame" x="0.0" y="163.5" width="99" height="99"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="ydV-0W-2Eq" secondAttribute="height" id="yAz-QM-8cx"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="전포"/>
+                                                <connections>
+                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VaB-nb-kQG"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="전포" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AI0-mC-ggm">
+                                                <rect key="frame" x="0.0" y="278.5" width="99" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="AI0-mC-ggm" secondAttribute="height" multiplier="3:1" id="B0o-sh-2MK"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ukh-lq-p6F">
+                                                <rect key="frame" x="0.0" y="327.5" width="99" height="98.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Ukh-lq-p6F" secondAttribute="height" id="gKM-Ip-9Jw"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Button" image="피카츄"/>
+                                                <connections>
+                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fLA-FK-DdG"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="피카츄" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p0P-gO-2kx">
+                                                <rect key="frame" x="0.0" y="442" width="99" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="p0P-gO-2kx" secondAttribute="height" multiplier="3:1" id="5NC-ec-iCv"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="D7c-yb-Tvv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5Tk-rH-xKn"/>
+                            <constraint firstItem="D7c-yb-Tvv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7O0-fr-nJV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="labelCollection" destination="rgF-nE-9VX" collectionClass="NSMutableArray" id="ujE-Rm-Neg"/>
+                        <outletCollection property="labelCollection" destination="paL-FJ-uhW" collectionClass="NSMutableArray" id="l4n-Eg-ehS"/>
+                        <outletCollection property="labelCollection" destination="vg4-HV-PfV" collectionClass="NSMutableArray" id="s7A-tu-fYp"/>
+                        <outletCollection property="labelCollection" destination="0AG-yR-xVr" collectionClass="NSMutableArray" id="XrW-Az-wJF"/>
+                        <outletCollection property="labelCollection" destination="3gU-uG-T74" collectionClass="NSMutableArray" id="eCw-Sm-Vvf"/>
+                        <outletCollection property="labelCollection" destination="AI0-mC-ggm" collectionClass="NSMutableArray" id="5kN-Vh-qXK"/>
+                        <outletCollection property="labelCollection" destination="1d7-Jb-vac" collectionClass="NSMutableArray" id="oua-6i-hfb"/>
+                        <outletCollection property="labelCollection" destination="ymB-aq-gbe" collectionClass="NSMutableArray" id="dcr-I8-E2M"/>
+                        <outletCollection property="labelCollection" destination="p0P-gO-2kx" collectionClass="NSMutableArray" id="Mdc-pj-pdq"/>
+                        <outletCollection property="buttonCollection" destination="wts-ge-7ew" collectionClass="NSMutableArray" id="HqP-f6-AB1"/>
+                        <outletCollection property="buttonCollection" destination="FYc-RT-heZ" collectionClass="NSMutableArray" id="xMZ-au-wq8"/>
+                        <outletCollection property="buttonCollection" destination="gZ4-TM-hk0" collectionClass="NSMutableArray" id="FQT-tv-mbc"/>
+                        <outletCollection property="buttonCollection" destination="TgT-fP-taj" collectionClass="NSMutableArray" id="fBg-sO-rvN"/>
+                        <outletCollection property="buttonCollection" destination="Jzq-v7-a0K" collectionClass="NSMutableArray" id="u99-hC-hVR"/>
+                        <outletCollection property="buttonCollection" destination="ydV-0W-2Eq" collectionClass="NSMutableArray" id="q1X-MG-gu4"/>
+                        <outletCollection property="buttonCollection" destination="VJN-OE-Fqz" collectionClass="NSMutableArray" id="kgD-pF-ZaY"/>
+                        <outletCollection property="buttonCollection" destination="vbu-wY-oKM" collectionClass="NSMutableArray" id="yzA-7w-UzC"/>
+                        <outletCollection property="buttonCollection" destination="Ukh-lq-p6F" collectionClass="NSMutableArray" id="zR0-Ae-vvL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="라이츄" width="314" height="306"/>
+        <image name="리자몽" width="360" height="332"/>
+        <image name="뮤츠" width="278" height="306"/>
+        <image name="번데기" width="314" height="306"/>
+        <image name="이브이" width="338" height="306"/>
+        <image name="전포" width="314" height="306"/>
+        <image name="팬텀" width="278" height="306"/>
+        <image name="푸린" width="278" height="306"/>
+        <image name="피카츄" width="314" height="306"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
